@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: robot;
+}
+.mainheader{
+    background-color: #EAC926;
+    padding: 20px;
+    
+}
+.logo{
+    width: 200px;
+}
+.coppy header{
+    font-weight:400 ;
+    text-align: center;
+}
+.burger-menu {
+    display: block;
+    width: 50px;
+    margin: auto;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    padding: 15px 0;
+    border-radius: 9%;
+text-align: center;
+    }   
+    .haderbottonbar{
+        display:flex;
+
+    }
+
+    .haderbottonbar ul{
+        list-style:none;
+        padding: 0;
+        margin: 0;
+    }
+    .vista ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .Ofertas ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .haderbottonbar a{
+        text-decoration: none;
+        color:#222222;
+        display:inline-block;
+        padding: 7px 0;
+        font-size: 18px;
+    }
+    .banner{
+        display:flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .vista{
+        display:inline-block;
+        justify-content:center;
+        text-decoration: none;
+        padding: 0;
+        text-align:center;
+        margin: 7px;
+        list-style: none;
+        
+        
+    }
+
+    .Ofertas{
+        display:inline-block;
+        justify-content:center;
+        text-decoration: none;
+        padding: 0;
+        text-align:center;
+        margin: 7px;
+        list-style: none;
+    }
+
+    @media(min-width:580px){
+
+        .headertopbar{
+            display: flex;
+            justify-content:space-between;
+            width: 100%;
+        }
+
+        .textheader{
+            max-width: 350px;
+            text-align: right;
+        }
+
+        .burger-menu{
+            display: none ;
+        }
+        .haderbottonbar{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+           
+        }
+        .haderbottonbar ul{
+            display: flex;
+        }
+        .haderbottonbar li{
+            margin: 0 10px;
+        }
+
+
+        .searching{
+            display: flex;
+
+            width: 155px;
+            height: 20px;
+        }
+
+        .vista{
+            display:flex;
+            text-align:center;
+            justify-content: center;
+    
+        
+        
+        }
+        .vista ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        .Ofertas ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        .Ofertas{
+            display:flex;
+            text-align:center;
+            justify-content: space-between;
+        }
+
+    }
+    @media(min-width:1200px){
+        .headertopbar{
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+            
+        }
+        .textheader{
+            display: flex;
+            max-width: none;
+            font-size: 20px;
+            font-weight: 410;
+            text-align: center;
+            justify-content: space-between;
+        }
+        .haderbottonbar li{
+            margin: 0 15;
+
+        }
+        .haderbottonbar li{
+            margin-top: 17px;
+
+        }
+        .haderbottonbar ul{
+            display: flex;
+        }
+    }
